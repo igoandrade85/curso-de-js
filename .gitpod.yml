@@ -1,6 +1,12 @@
+
 tasks:
   - init: npm install && npm run build && npm install -g eslint
     command: npm run dev
-    
+
 image:
   file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - ritwickdey.LiveServer
+    - file-icons.file-icons
